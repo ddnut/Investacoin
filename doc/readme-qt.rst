@@ -1,4 +1,4 @@
-Investcoin-qt: Qt4 GUI for Investcoin
+Investacoin-qt: Qt4 GUI for Investacoin
 ===============================
 
 Build instructions
@@ -71,7 +71,7 @@ Build configuration options
 UPNnP port forwarding
 ---------------------
 
-To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable Investcoin experience), pass the following argument to qmake:
+To use UPnP for port forwarding behind a NAT router (recommended, as more connections overall allow for a faster and more stable Investacoin experience), pass the following argument to qmake:
 
 ::
 

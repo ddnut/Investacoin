@@ -389,7 +389,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = Investcoin-qt_test
+TARGET = Investacoin-qt_test
 DEFINES += BITCOIN_QT_INVT
 }
 

@@ -80,7 +80,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     optionsDialog(0)
 {
     setFixedSize(970, 550);
-    setWindowTitle(tr("Investcoin") + " " + tr("Wallet"));
+    setWindowTitle(tr("Investacoin") + " " + tr("Wallet"));
     qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkg);font-family:'Open Sans,sans-serif'; } #frame { } QToolBar QLabel { padding-top:15px;padding-bottom:10px;margin:0px; } #spacer { background:rgb(0,0,0);border:none; } #toolbar2 { border:none;width:10px; background-color:qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,stop: 0 rgb(255,153,0), stop: 1 rgb(255,189,91)); } #toolbar { border:none;height:100%;padding-top:20px; background: rgb(0,0,0); text-align: left; color: white;min-width:200px;max-width:200px;} QToolBar QToolButton:hover {background-color:qlineargradient(x1: 0, y1: 0, x2: 2, y2: 2,stop: 0 rgb(255,153,0), stop: 1 rgb(0,0,0),stop: 2 rgb(255,153,0));} QToolBar QToolButton { font-family:Century Gothic;padding-left:20px;padding-right:200px;padding-top:10px;padding-bottom:10px; width:100%; color: white; text-align: left; background-color: rgb(0,0,0) } #labelStakingIcon { padding-left:5px;font-family:Century Gothic;width:100%;font-size:10px;text-align:center;color:white; } QMenu { background: rgb(0,0,0); color:white; padding-bottom:10px; } QMenu::item { color:white; background-color: transparent; } QMenu::item:selected { background-color:qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,stop: 0 rgb(255,153,0), stop: 1 rgb(0,0,0)); } QMenuBar { background: rgb(0,0,0); color:white; } QMenuBar::item { font-size:12px;padding-bottom:12px;padding-top:12px;padding-left:15px;padding-right:15px;color:white; background-color: transparent; } QMenuBar::item:selected { background-color:qlineargradient(x1: 0, y1: 0, x2: 0.5, y2: 0.5,stop: 0 rgb(0,0,0), stop: 1 rgb(255,153,0)); }");
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
@@ -294,12 +294,12 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutCardAction = new QAction(tr("Investcoin Website"), this);
-    aboutCardAction->setToolTip(tr("Go to Investcoin website"));
+    aboutCardAction = new QAction(tr("Investacoin Website"), this);
+    aboutCardAction->setToolTip(tr("Go to Investacoin website"));
 //	tutoStackAction = new QAction(tr("How to stake"), this);
 //	tutoStackAction->setToolTip(tr("Learn how POS works"));
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Investcoin"), this);
-    aboutAction->setToolTip(tr("Show information about Investcoin"));
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About Investacoin"), this);
+    aboutAction->setToolTip(tr("Show information about Investacoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));

@@ -961,7 +961,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Investcoin";
+    const char* pszModule = "Investacoin";
 #endif
     if (pex)
         return strprintf(
@@ -1010,13 +1010,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Investcoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Investcoin
-    // Mac: ~/Library/Application Support/Investcoin
-    // Unix: ~/.Investcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Investacoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Investacoin
+    // Mac: ~/Library/Application Support/Investacoin
+    // Unix: ~/.Investacoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Investcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Investacoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1028,10 +1028,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Investcoin";
+    return pathRet / "Investacoin";
 #else
     // Unix
-    return pathRet / ".Investcoin";
+    return pathRet / ".Investacoin";
 #endif
 #endif
 }
@@ -1073,7 +1073,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "Investcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "Investacoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1104,7 +1104,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "Investcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "Investacoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1244,10 +1244,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Investcoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Investacoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Investcoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("Investacoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

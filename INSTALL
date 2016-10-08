@@ -1,9 +1,9 @@
-Building Investcoin
+Building Investacoin
 
-See doc/readme-qt.rst for instructions on building Investcoin QT,
+See doc/readme-qt.rst for instructions on building Investacoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Investcoin.
+implementation of Investacoin.
 
 See doc/build-*.txt for instructions on building bitcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Investcoin.
+implementation of Investacoin.

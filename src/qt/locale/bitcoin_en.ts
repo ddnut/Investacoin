@@ -6,18 +6,18 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Investcoin</source>
-        <translation>About Investcoin</translation>
+        <source>About Investacoin</source>
+        <translation>About Investacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Investcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Investcoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Investacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Investacoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2009-2012 The Investcoin developers</source>
-        <translation>Copyright © 2009-2012 The Investcoin developers</translation>
+        <source>Copyright © 2009-2012 The Investacoin developers</source>
+        <translation>Copyright © 2009-2012 The Investacoin developers</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -64,8 +64,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Investcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Investcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Investacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Investacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Investcoin address</source>
-        <translation>Sign a message to prove you own a Investcoin address</translation>
+        <source>Sign a message to prove you own a Investacoin address</source>
+        <translation>Sign a message to prove you own a Investacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Investcoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Investcoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Investacoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Investacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -252,8 +252,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Investcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Investcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>Investacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Investacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -366,8 +366,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Investcoin</source>
-        <translation>Show information about Investcoin</translation>
+        <source>Show information about Investacoin</source>
+        <translation>Show information about Investacoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Send coins to a Investcoin address</source>
-        <translation>Send coins to a Investcoin address</translation>
+        <source>Send coins to a Investacoin address</source>
+        <translation>Send coins to a Investacoin address</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Investcoin</source>
-        <translation>Modify configuration options for Investcoin</translation>
+        <source>Modify configuration options for Investacoin</source>
+        <translation>Modify configuration options for Investacoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -464,8 +464,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-186"/>
-        <source>Investcoin</source>
-        <translation>Investcoin</translation>
+        <source>Investacoin</source>
+        <translation>Investacoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -474,8 +474,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+168"/>
-        <source>&amp;About Investcoin</source>
-        <translation>&amp;About Investcoin</translation>
+        <source>&amp;About Investacoin</source>
+        <translation>&amp;About Investacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -516,15 +516,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Investcoin client</source>
-        <translation>Investcoin client</translation>
+        <source>Investacoin client</source>
+        <translation>Investacoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+69"/>
-        <source>%n active connection(s) to Investcoin network</source>
+        <source>%n active connection(s) to Investacoin network</source>
         <translation>
-            <numerusform>%n active connection to Investcoin network</numerusform>
-            <numerusform>%n active connections to Investcoin network</numerusform>
+            <numerusform>%n active connection to Investacoin network</numerusform>
+            <numerusform>%n active connections to Investacoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -621,8 +621,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Investcoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Investcoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Investacoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Investacoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -656,8 +656,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Investcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Investcoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Investacoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Investacoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -722,8 +722,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Investcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Investcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Investacoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Investacoin address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -741,8 +741,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+419"/>
         <location line="+12"/>
-        <source>Investcoin-Qt</source>
-        <translation>Investcoin-Qt</translation>
+        <source>Investacoin-Qt</source>
+        <translation>Investacoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -804,13 +804,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Investcoin after logging in to the system.</source>
-        <translation>Automatically start Investcoin after logging in to the system.</translation>
+        <source>Automatically start Investacoin after logging in to the system.</source>
+        <translation>Automatically start Investacoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Investcoin on system login</source>
-        <translation>&amp;Start Investcoin on system login</translation>
+        <source>&amp;Start Investacoin on system login</source>
+        <translation>&amp;Start Investacoin on system login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -829,8 +829,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Investcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Investcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Investacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Investacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -839,8 +839,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Investcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the Investcoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the Investacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the Investacoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -914,8 +914,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Investcoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Investcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Investacoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Investacoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Investcoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Investcoin addresses in the transaction list or not.</translation>
+        <source>Whether to show Investacoin addresses in the transaction list or not.</source>
+        <translation>Whether to show Investacoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -966,8 +966,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Investcoin.</source>
-        <translation>This setting will take effect after restarting Investcoin.</translation>
+        <source>This setting will take effect after restarting Investacoin.</source>
+        <translation>This setting will take effect after restarting Investacoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -985,8 +985,8 @@ Address: %4
     <message>
         <location line="+33"/>
         <location line="+183"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Investcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Investcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Investacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Investacoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-141"/>
@@ -1201,8 +1201,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Investcoin-Qt help message to get a list with possible Investcoin command-line options.</source>
-        <translation>Show the Investcoin-Qt help message to get a list with possible Investcoin command-line options.</translation>
+        <source>Show the Investacoin-Qt help message to get a list with possible Investacoin command-line options.</source>
+        <translation>Show the Investacoin-Qt help message to get a list with possible Investacoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1221,13 +1221,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Investcoin - Debug window</source>
-        <translation>Investcoin - Debug window</translation>
+        <source>Investacoin - Debug window</source>
+        <translation>Investacoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Investcoin Core</source>
-        <translation>Investcoin Core</translation>
+        <source>Investacoin Core</source>
+        <translation>Investacoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1236,8 +1236,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Investcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Investcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Investacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Investacoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1246,8 +1246,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Investcoin RPC console.</source>
-        <translation>Welcome to the Investcoin RPC console.</translation>
+        <source>Welcome to the Investacoin RPC console.</source>
+        <translation>Welcome to the Investacoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1430,8 +1430,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a valid Investcoin address</source>
-        <translation>Enter a valid Investcoin address </translation>
+        <source>Enter a valid Investacoin address</source>
+        <translation>Enter a valid Investacoin address </translation>
     </message>
 </context>
 <context>
@@ -1491,8 +1491,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Investcoin address</source>
-        <translation>Sign the message to prove you own this Investcoin address</translation>
+        <source>Sign the message to prove you own this Investacoin address</source>
+        <translation>Sign the message to prove you own this Investacoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1523,8 +1523,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Investcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Investcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Investacoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Investacoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1534,8 +1534,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a valid Investcoin address</source>
-        <translation>Enter a valid Investcoin address</translation>
+        <source>Enter a valid Investacoin address</source>
+        <translation>Enter a valid Investacoin address</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1544,8 +1544,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Investcoin signature</source>
-        <translation>Enter Investcoin signature</translation>
+        <source>Enter Investacoin signature</source>
+        <translation>Enter Investacoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2115,8 +2115,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+82"/>
-        <source>Investcoin version</source>
-        <translation>Investcoin version</translation>
+        <source>Investacoin version</source>
+        <translation>Investacoin version</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2145,13 +2145,13 @@ Address: %4
     </message>
     <message>
         <location line="+23"/>
-        <source>Specify configuration file (default: Investcoin.conf)</source>
-        <translation>Specify configuration file (default: Investcoin.conf)</translation>
+        <source>Specify configuration file (default: Investacoin.conf)</source>
+        <translation>Specify configuration file (default: Investacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: Investcoind.pid)</source>
-        <translation>Specify pid file (default: Investcoind.pid)</translation>
+        <source>Specify pid file (default: Investacoind.pid)</source>
+        <translation>Specify pid file (default: Investacoind.pid)</translation>
     </message>
     <message>
         <location line="-47"/>
@@ -2305,8 +2305,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Investcoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Investcoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Investacoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Investacoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2540,13 +2540,13 @@ Address: %4
     </message>
     <message>
         <location line="-131"/>
-        <source>Cannot obtain a lock on data directory %s.  Investcoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s.  Investcoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Investacoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s.  Investacoin is probably already running.</translation>
     </message>
     <message>
         <location line="+57"/>
-        <source>Investcoin</source>
-        <translation>Investcoin</translation>
+        <source>Investacoin</source>
+        <translation>Investacoin</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -2580,13 +2580,13 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Investcoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Investcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Investacoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Investacoin</translation>
     </message>
     <message>
         <location line="+73"/>
-        <source>Wallet needed to be rewritten: restart Investcoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Investcoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Investacoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart Investacoin to complete</translation>
     </message>
     <message>
         <location line="-75"/>
@@ -2655,8 +2655,8 @@ Address: %4
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Investcoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Investcoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Investacoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Investacoin is probably already running.</translation>
     </message>
     <message>
         <location line="+55"/>

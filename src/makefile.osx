@@ -119,10 +119,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: Investcoind
+all: Investacoind
 
-test check: test_Investcoin FORCE
-	./test_Investcoin
+test check: test_Investacoin FORCE
+	./test_Investacoin
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -146,7 +146,7 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-Investcoind: $(OBJS:obj/%=obj/%)
+Investacoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 INVTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -158,11 +158,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_Investcoin: $(INVTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_Investacoin: $(INVTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(INVTLIBS)
 
 clean:
-	-rm -f Investcoind test_Investcoin
+	-rm -f Investacoind test_Investacoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

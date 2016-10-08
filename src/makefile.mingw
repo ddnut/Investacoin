@@ -85,10 +85,10 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o
 
-all: Investcoind.exe
+all: Investacoind.exe
 
-test check: test_Investcoin.exe FORCE
-	test_Investcoin.exe
+test check: test_Investacoin.exe FORCE
+	test_Investacoin.exe
 
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
@@ -99,7 +99,7 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
 
-Investcoind.exe: $(OBJS:obj/%=obj/%)
+Investacoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 INVTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -111,7 +111,7 @@ test_bitcoin.exe: $(INVTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
 
 clean:
-	-del /Q Investcoind test_Investcoin
+	-del /Q Investacoind test_Investacoin
 	-del /Q obj\*
 	-del /Q obj-test\*
 

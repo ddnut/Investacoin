@@ -1,4 +1,4 @@
-Investcoin 
+Investacoin 
 
 A hybrid Proof of Stake / Proof of work alternative Crypto Currency
 

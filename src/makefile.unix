@@ -135,7 +135,7 @@ OBJS= \
     obj/scrypt-x86_64.o
 
 
-all: Investcoind
+all: Investacoind
 
 #
 # LevelDB support
@@ -148,8 +148,8 @@ leveldb/libleveldb.a:
 	@echo "Building LevelDB ..."; cd leveldb; make libleveldb.a libmemenv.a; cd ..;
 obj/txdb-leveldb.o: leveldb/libleveldb.a
 
-test check: test_Investcoin FORCE
-	./test_Investcoin
+test check: test_Investacoin FORCE
+	./test_Investacoin
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -173,7 +173,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-Investcoind: $(OBJS:obj/%=obj/%)
+Investacoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 INVTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -185,11 +185,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_Investcoin: $(INVTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_Investacoin: $(INVTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ -Wl,-B$(LMODE) -lboost_unit_test_framework $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f Investcoind test_Investcoin
+	-rm -f Investacoind test_Investacoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

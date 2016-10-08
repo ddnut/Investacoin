@@ -456,7 +456,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid Investcoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid Investacoin address"));
         }
         else
         {
